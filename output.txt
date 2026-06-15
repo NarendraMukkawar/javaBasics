@@ -1,32 +1,34 @@
-1. Append (add) elements to a hash set:
-HashSet contents: [2, 5, 8, 10]
-----------------------------------------
-2. Iterate through all elements in a hash set:
-Element: 2
-Element: 5
-Element: 8
-Element: 10
-----------------------------------------
-3. Get the number of elements in a hash set:
-Size of hash set: 4
-----------------------------------------
-7. Convert a hash set to an array:
-Array element at index 0: 2
-----------------------------------------
-8. Convert a hash set to a tree set:
-TreeSet contents (Automatically sorted!): [2, 5, 8, 10]
-----------------------------------------
-9. Find numbers less than 7 in a tree set:
-Numbers less than 7: [2, 5]
-----------------------------------------
-10. Compare two hash sets:
-Are the two sets equal? true
-----------------------------------------
-11. Compare two sets and retain elements that are the same (Intersection):
-----------------------------------------
-5. Test if a hash set is empty or not:
-Is 'sampleSet' empty? false
-----------------------------------------
-4 & 12. Empty / remove all elements from a hash set:
-sampleSet set after clear(): []
-Is 'sampleSet' empty now? true
+Male and Female count is 10 6 respectively
+name of all departments
+HR
+Sales And Marketing
+Infrastructure
+Product Development
+Security And Transport
+Account And Finance
+Average Male and Female age is 30.1 27.166666666666668 respectively
+details of highest paid employee Id : 188, Name : Wang Liu, age : 31, Gender : Male, Department : Product Development, Year Of Joining : 2015, Salary : 34500.0
+names of all employees who have joined after 2015
+Iqbal Hussain
+Amelia Zoe
+Nitin Joshi
+Nicolus Den
+Ali Baig
+Employee count by department:
+Product Development : 4
+Security And Transport : 2
+Sales And Marketing : 3
+Infrastructure : 3
+HR : 2
+Account And Finance : 2
+Average salary by department:
+Product Development : $31025.00
+Security And Transport : $10750.25
+Sales And Marketing : $11900.17
+Infrastructure : $15466.67
+HR : $23850.00
+Account And Finance : $24150.00
+Youngest Male in Product Development:
+Id : 222, Name : Nitin Joshi, age : 25, Gender : Male, Department : Product Development, Year Of Joining : 2016, Salary : 28200.0
+Most Experienced Employee: Id : 177, Name : Manu Sharma, age : 35, Gender : Male, Department : Account And Finance, Year Of Joining : 2010, Salary : 27000.0
+Sales & Marketing count by gender: {Female=1, Male=2}
