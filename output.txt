@@ -1,0 +1,32 @@
+1. Append (add) elements to a hash set:
+HashSet contents: [2, 5, 8, 10]
+----------------------------------------
+2. Iterate through all elements in a hash set:
+Element: 2
+Element: 5
+Element: 8
+Element: 10
+----------------------------------------
+3. Get the number of elements in a hash set:
+Size of hash set: 4
+----------------------------------------
+7. Convert a hash set to an array:
+Array element at index 0: 2
+----------------------------------------
+8. Convert a hash set to a tree set:
+TreeSet contents (Automatically sorted!): [2, 5, 8, 10]
+----------------------------------------
+9. Find numbers less than 7 in a tree set:
+Numbers less than 7: [2, 5]
+----------------------------------------
+10. Compare two hash sets:
+Are the two sets equal? true
+----------------------------------------
+11. Compare two sets and retain elements that are the same (Intersection):
+----------------------------------------
+5. Test if a hash set is empty or not:
+Is 'sampleSet' empty? false
+----------------------------------------
+4 & 12. Empty / remove all elements from a hash set:
+sampleSet set after clear(): []
+Is 'sampleSet' empty now? true
