@@ -89,6 +89,16 @@ public class StreamAPIQuestionAnswer {
                 .collect(Collectors.groupingBy(e -> e.getGender(), Collectors.counting()));
 
         System.out.println("Sales & Marketing count by gender: " + countByGenderSales);
+
+        // Map question with integer ans key and string as value
+        Map<Integer, String> mp = employeeList.stream()
+                .collect(Collectors.toMap(
+                        emp -> emp.getName().length(),
+                        emp -> emp.getName(),
+                        (existing, replacement) -> existing.hashCode() > replacement.hashCode() ? existing
+                                : replacement));
+
+        System.out.println(mp);
     }
 
 }
